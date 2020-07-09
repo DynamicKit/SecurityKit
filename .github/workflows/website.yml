@@ -12,8 +12,8 @@ on:
       - master
       
 env:
-  PROJECT: SecurityKit.xcodeproj
-  SCHEME: SecurityKit
+  PROJECT: ${{ github.event.repository.name }}.xcodeproj
+  SCHEME: ${{ github.event.repository.name }}
   AUTHOR: Mohammadreza Koohkan
   AUTHOR_URL: https://mohamadreza.codes/
   THEME: apple
