@@ -10,27 +10,27 @@
 
 Pod::Spec.new do |s|
 
-s.name             = 'SecurityKit'
+s.name             = 'CalculatorKit'
 s.version          = '1.0.0'
-s.summary          = 'App security evaluator'
-s.homepage         = 'https://github.com/DynamicKit/SecurityKit'
+s.summary          = 'Calculator framework'
+s.homepage         = 'https://github.com/DynamicKit/CalculatorKit'
 s.author           = { 'mohamadrezakoohkan' => 'mohamad_koohkan@icloud.com' }
-s.documentation_url = 'https://dynamickit.github.io/SecurityKit/'
+s.documentation_url = 'https://dynamickit.github.io/CalculatorKit/'
 s.ios.deployment_target = '8.1'
 s.watchos.deployment_target = '3.0'
 s.osx.deployment_target  = '10.12'
 s.tvos.deployment_target = '10.0'
-s.source           = { :git => 'https://github.com/DynamicKit/SecurityKit.git', :tag => s.version  }
-s.swift_version    = '5.1.3'
-s.source_files     = 'Source/AppVersion.swift'
-s.description      = 'App version handler'
+s.source           = { :git => 'https://github.com/DynamicKit/CalculatorKit.git', :tag => s.version  }
+s.swift_version    = '5.2'
+s.source_files     = 'Source/**/*'
+s.description      = 'Calculator framework'
 s.license          = { :type => 'MIT', :text => <<-LICENSE
     MIT License
 
     Copyright (c) 2019 mohamad reza koohkan
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "SecurityKit"), to deal
+    of this software and associated documentation files (the "CalculatorKit"), to deal
     in the Software without restriction, including without limitation the rights
     to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
     copies of the Software, and to permit persons to whom the Software is
@@ -45,7 +45,7 @@ s.license          = { :type => 'MIT', :text => <<-LICENSE
     AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-    SecurityKit.
+    CalculatorKit.
 
 LICENSE
 }

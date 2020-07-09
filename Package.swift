@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SecurityKit",
+    name: "CalculatorKit",
     platforms: [
         .macOS(.v10_12),
         .iOS(.v8),
@@ -13,17 +13,17 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "SecurityKit",
-            targets: ["SecurityKit"]),
+            name: "CalculatorKit",
+            targets: ["CalculatorKit"]),
     ],
     targets: [
         .target(
-            name: "SecurityKit",
+            name: "CalculatorKit",
             path: "Source"
         ),
         .testTarget(
-            name: "SecurityKitTests",
-            dependencies: ["SecurityKit"],
+            name: "CalculatorKitTests",
+            dependencies: ["CalculatorKit"],
             path: "Tests"
         )
     ],
