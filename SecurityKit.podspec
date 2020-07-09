@@ -22,8 +22,8 @@ s.osx.deployment_target  = '10.12'
 s.tvos.deployment_target = '10.0'
 s.source           = { :git => 'https://github.com/DynamicKit/SecurityKit.git', :tag => s.version  }
 s.swift_version    = '5.1.3'
-s.source_files     = 'Source/AppVersion.swift'
-s.description      = 'App version handler'
+s.source_files     = 'Source/**/*'
+s.description      = 'App security evaluator'
 s.license          = { :type => 'MIT', :text => <<-LICENSE
     MIT License
 
