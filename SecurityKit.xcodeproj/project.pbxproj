@@ -20,6 +20,7 @@
 		DD58EFF224B490420096215F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD58EFF124B490420096215F /* Assets.xcassets */; };
 		DD58EFF524B490420096215F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD58EFF324B490420096215F /* LaunchScreen.storyboard */; };
 		DD58EFFB24B4912A0096215F /* Jailbreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58EFFA24B4912A0096215F /* Jailbreak.swift */; };
+		DDE5313224B994630064898C /* SecurityKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE5313024B994570064898C /* SecurityKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		DD58F00124B4DD730096215F /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		DD58F00224B4DD730096215F /* SecurityKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SecurityKit.podspec; sourceTree = "<group>"; };
 		DD58F00324B4DD730096215F /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		DDE5313024B994570064898C /* SecurityKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecurityKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				DD58EFFC24B4DAA60096215F /* Helper */,
 				DD58EFC324B47B550096215F /* SecurityKit.h */,
 				DD58EFC424B47B550096215F /* Info.plist */,
+				DDE5313024B994570064898C /* SecurityKit.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 					};
 					DD58EFE524B490400096215F = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
 					};
 				};
 			};
@@ -326,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDE5313224B994630064898C /* SecurityKit.m in Sources */,
 				DD58EFE124B47D050096215F /* Cydia.swift in Sources */,
 				DD58EFDB24B47BBC0096215F /* Security.swift in Sources */,
 				DD58EFDD24B47C990096215F /* Service.swift in Sources */,
@@ -598,6 +603,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BPYLDK5ZR2;
 				INFOPLIST_FILE = Example/Info.plist;
@@ -607,6 +613,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = codes.mohamadreza.framework.SecurityKit.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -616,6 +623,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BPYLDK5ZR2;
 				INFOPLIST_FILE = Example/Info.plist;
