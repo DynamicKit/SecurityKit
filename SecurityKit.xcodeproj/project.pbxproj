@@ -52,12 +52,13 @@
 		DD58EFF424B490420096215F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD58EFF624B490420096215F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD58EFFA24B4912A0096215F /* Jailbreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jailbreak.swift; sourceTree = "<group>"; };
-		DD58EFFF24B4DD410096215F /* website.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; name = website.yml; path = .github/workflows/website.yml; sourceTree = "<group>"; };
 		DD58F00024B4DD560096215F /* CODEOWNERS */ = {isa = PBXFileReference; lastKnownFileType = text; path = CODEOWNERS; sourceTree = "<group>"; };
 		DD58F00124B4DD730096215F /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		DD58F00224B4DD730096215F /* SecurityKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SecurityKit.podspec; sourceTree = "<group>"; };
 		DD58F00324B4DD730096215F /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		DDE5313024B994570064898C /* SecurityKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecurityKit.m; sourceTree = "<group>"; };
+		DDE8ED0024BDBF0000D3374E /* test.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = test.yml; sourceTree = "<group>"; };
+		DDE8ED0124BDBF0000D3374E /* website.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = website.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,9 +184,19 @@
 		DD58EFFE24B4DCF70096215F /* Workflows */ = {
 			isa = PBXGroup;
 			children = (
-				DD58EFFF24B4DD410096215F /* website.yml */,
+				DDE8ECFF24BDBF0000D3374E /* workflows */,
 			);
 			name = Workflows;
+			sourceTree = "<group>";
+		};
+		DDE8ECFF24BDBF0000D3374E /* workflows */ = {
+			isa = PBXGroup;
+			children = (
+				DDE8ED0024BDBF0000D3374E /* test.yml */,
+				DDE8ED0124BDBF0000D3374E /* website.yml */,
+			);
+			name = workflows;
+			path = .github/workflows;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
