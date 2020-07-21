@@ -56,6 +56,7 @@
 		DD58F00124B4DD730096215F /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		DD58F00224B4DD730096215F /* SecurityKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SecurityKit.podspec; sourceTree = "<group>"; };
 		DD58F00324B4DD730096215F /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		DDA0C4C724BFEC730081CB5F /* release.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = release.yml; sourceTree = "<group>"; };
 		DDE5313024B994570064898C /* SecurityKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecurityKit.m; sourceTree = "<group>"; };
 		DDE8ED0024BDBF0000D3374E /* test.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = test.yml; sourceTree = "<group>"; };
 		DDE8ED0124BDBF0000D3374E /* website.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = website.yml; sourceTree = "<group>"; };
@@ -194,6 +195,7 @@
 			children = (
 				DDE8ED0024BDBF0000D3374E /* test.yml */,
 				DDE8ED0124BDBF0000D3374E /* website.yml */,
+				DDA0C4C724BFEC730081CB5F /* release.yml */,
 			);
 			name = workflows;
 			path = .github/workflows;
