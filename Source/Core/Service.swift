@@ -14,6 +14,6 @@ public protocol Service {
     
     /// Returns whether service is qualified and valid or not
     ///
-    var qualified: Bool { get }
+    static var qualified: Bool { get }
 }
 

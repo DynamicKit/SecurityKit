@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD09825824EDAB680094B537 /* SystemPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD09825624EDAAA30094B537 /* SystemPath.swift */; };
+		DD09825B24EDAD8D0094B537 /* Sensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD09825924EDAD740094B537 /* Sensor.swift */; };
 		DD58EFC524B47B550096215F /* SecurityKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DD58EFC324B47B550096215F /* SecurityKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DD58EFD224B47B750096215F /* SecurityKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58EFD124B47B750096215F /* SecurityKitTests.swift */; };
 		DD58EFD424B47B750096215F /* SecurityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD58EFC024B47B550096215F /* SecurityKit.framework */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD09825624EDAAA30094B537 /* SystemPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemPath.swift; sourceTree = "<group>"; };
+		DD09825924EDAD740094B537 /* Sensor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sensor.swift; sourceTree = "<group>"; };
 		DD58EFC024B47B550096215F /* SecurityKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SecurityKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD58EFC324B47B550096215F /* SecurityKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecurityKit.h; sourceTree = "<group>"; };
 		DD58EFC424B47B550096215F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -144,8 +148,10 @@
 		DD58EFDF24B47CE90096215F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				DD58EFE024B47D050096215F /* Cydia.swift */,
 				DD58EFFA24B4912A0096215F /* Jailbreak.swift */,
+				DD58EFE024B47D050096215F /* Cydia.swift */,
+				DD09825624EDAAA30094B537 /* SystemPath.swift */,
+				DD09825924EDAD740094B537 /* Sensor.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -348,6 +354,8 @@
 				DD58EFDB24B47BBC0096215F /* Security.swift in Sources */,
 				DD58EFDD24B47C990096215F /* Service.swift in Sources */,
 				DD58EFFB24B4912A0096215F /* Jailbreak.swift in Sources */,
+				DD09825824EDAB680094B537 /* SystemPath.swift in Sources */,
+				DD09825B24EDAD8D0094B537 /* Sensor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
