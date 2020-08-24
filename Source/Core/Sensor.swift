@@ -8,6 +8,4 @@
 
 import Foundation
 
-protocol Sensor {
-
-}
+public protocol Sensor { }

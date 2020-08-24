@@ -49,9 +49,9 @@ public class Cydia: Sensor {
 
 extension Cydia: Service {
 
-    /// Returns true if there is no Cydia in device
+    /// Returns true if there is Cydia in device
     ///
     public static var qualified: Bool {
-        return !Cydia.shared.canOpen() && !Cydia.shared.isExists()
+        return Cydia.shared.canOpen() && Cydia.shared.isExists()
     }
 }

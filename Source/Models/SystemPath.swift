@@ -32,7 +32,7 @@ enum SystemPath: String, CaseIterable, Sensor {
         return .default
     }
 
-    private var isExist: Bool {
+    public var isExist: Bool {
         return self.manager.fileExists(atPath: self.rawValue)
     }
 
@@ -40,9 +40,9 @@ enum SystemPath: String, CaseIterable, Sensor {
 
 extension SystemPath: Service {
 
-    /// Returns true if none of system paths was available
+    /// Returns true if at least one of system paths was available
     ///
     public static var qualified: Bool {
-        return self.allCases.compactMap { $0.isExist ? $0 : nil }.isEmpty
+        return self.allCases.compactMap { $0.isExist ? $0 : nil }.isEmpty == false
     }
 }

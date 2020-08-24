@@ -18,7 +18,7 @@ public class Jailbreak: Sensor {
 
 extension Jailbreak: Service {
     
-    /// Returns true if device is not jailbroken
+    /// Returns true if device is jailbroken
     ///
     public static var qualified: Bool {
         return Cydia.qualified && SystemPath.qualified

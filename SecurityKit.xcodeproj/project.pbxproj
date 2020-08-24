@@ -139,8 +139,9 @@
 		DD58EFDE24B47CE20096215F /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				DD58EFDA24B47BBC0096215F /* Security.swift */,
 				DD58EFDC24B47C990096215F /* Service.swift */,
+				DD58EFDA24B47BBC0096215F /* Security.swift */,
+				DD09825924EDAD740094B537 /* Sensor.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -151,7 +152,6 @@
 				DD58EFFA24B4912A0096215F /* Jailbreak.swift */,
 				DD58EFE024B47D050096215F /* Cydia.swift */,
 				DD09825624EDAAA30094B537 /* SystemPath.swift */,
-				DD09825924EDAD740094B537 /* Sensor.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
