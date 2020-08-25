@@ -13,12 +13,15 @@ import Foundation
 public enum Security {
     
     case cydia
+    case filza
     case jailbreak
-    
+
     var service: Service {
         switch self {
         case .cydia:
             return Cydia.shared
+        case .filza:
+            return Filza.shared
         case .jailbreak:
             return Jailbreak.shared
         }
