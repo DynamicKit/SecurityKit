@@ -1,0 +1,54 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/runner/work/SecurityKit/SecurityKit/Source/Core/Security.swift",
+      "line": 15,
+      "symbol": "Security.cydia",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SecurityKit/SecurityKit/Source/Core/Security.swift",
+      "line": 16,
+      "symbol": "Security.filza",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SecurityKit/SecurityKit/Source/Core/Security.swift",
+      "line": 17,
+      "symbol": "Security.jailbreak",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SecurityKit/SecurityKit/Source/Core/Sensor.swift",
+      "line": 11,
+      "symbol": "Sensor",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SecurityKit/SecurityKit/Source/Models/Cydia.swift",
+      "line": 15,
+      "symbol": "Cydia.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SecurityKit/SecurityKit/Source/Models/Filza.swift",
+      "line": 15,
+      "symbol": "Filza.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/runner/work/SecurityKit/SecurityKit/Source/Models/Jailbreak.swift",
+      "line": 15,
+      "symbol": "Jailbreak.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/runner/work/SecurityKit/SecurityKit"
+}
