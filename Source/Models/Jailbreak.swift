@@ -21,7 +21,9 @@ extension Jailbreak: Service {
     /// Returns true if device is jailbroken
     ///
     public static var qualified: Bool {
-        return Cydia.qualified && SystemPath.qualified
+        return Cydia.qualified
+            && Filza.qualified
+            && SystemPath.qualified
 
     }
 }

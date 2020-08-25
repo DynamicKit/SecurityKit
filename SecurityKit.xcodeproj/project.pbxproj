@@ -22,6 +22,8 @@
 		DD58EFF224B490420096215F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD58EFF124B490420096215F /* Assets.xcassets */; };
 		DD58EFF524B490420096215F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD58EFF324B490420096215F /* LaunchScreen.storyboard */; };
 		DD58EFFB24B4912A0096215F /* Jailbreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58EFFA24B4912A0096215F /* Jailbreak.swift */; };
+		DDE3D9F824F4E06E009DB99C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE3D9F524F4DF67009DB99C /* File.swift */; };
+		DDE3D9F924F4E10E009DB99C /* Filza.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE3D9F324F4DF1F009DB99C /* Filza.swift */; };
 		DDE5313224B994630064898C /* SecurityKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE5313024B994570064898C /* SecurityKit.m */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +63,8 @@
 		DD58F00224B4DD730096215F /* SecurityKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = SecurityKit.podspec; sourceTree = "<group>"; };
 		DD58F00324B4DD730096215F /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		DDA0C4C724BFEC730081CB5F /* release.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = release.yml; sourceTree = "<group>"; };
+		DDE3D9F324F4DF1F009DB99C /* Filza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filza.swift; sourceTree = "<group>"; };
+		DDE3D9F524F4DF67009DB99C /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		DDE5313024B994570064898C /* SecurityKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecurityKit.m; sourceTree = "<group>"; };
 		DDE8ED0024BDBF0000D3374E /* test.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = test.yml; sourceTree = "<group>"; };
 		DDE8ED0124BDBF0000D3374E /* website.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = website.yml; sourceTree = "<group>"; };
@@ -142,6 +146,7 @@
 				DD58EFDC24B47C990096215F /* Service.swift */,
 				DD58EFDA24B47BBC0096215F /* Security.swift */,
 				DD09825924EDAD740094B537 /* Sensor.swift */,
+				DDE3D9F524F4DF67009DB99C /* File.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			children = (
 				DD58EFFA24B4912A0096215F /* Jailbreak.swift */,
 				DD58EFE024B47D050096215F /* Cydia.swift */,
+				DDE3D9F324F4DF1F009DB99C /* Filza.swift */,
 				DD09825624EDAAA30094B537 /* SystemPath.swift */,
 			);
 			path = Models;
@@ -354,6 +360,8 @@
 				DD58EFDB24B47BBC0096215F /* Security.swift in Sources */,
 				DD58EFDD24B47C990096215F /* Service.swift in Sources */,
 				DD58EFFB24B4912A0096215F /* Jailbreak.swift in Sources */,
+				DDE3D9F824F4E06E009DB99C /* File.swift in Sources */,
+				DDE3D9F924F4E10E009DB99C /* Filza.swift in Sources */,
 				DD09825824EDAB680094B537 /* SystemPath.swift in Sources */,
 				DD09825B24EDAD8D0094B537 /* Sensor.swift in Sources */,
 			);
